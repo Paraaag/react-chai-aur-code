@@ -1,10 +1,19 @@
+import Chai from "./chai"
 
+const username='parag';
 
 
 function App() {
 
   return (
-    <h1>Chai Aur React | parag</h1>
+    <>
+  <div>
+    <Chai/>
+    <h1>Hiii {username}</h1>
+  </div>
+  </>
+    
+    
   )
 }
 
